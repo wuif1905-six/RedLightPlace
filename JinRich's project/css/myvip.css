@@ -1,0 +1,271 @@
+@import "base.css";
+.card{
+    width: 6.42rem;
+    height: 1.85rem;
+    background: #ffffff;
+    box-shadow: 0 .01rem .25rem 0
+    rgba(227, 227, 227, 0.75);
+    margin: 1.64rem .54rem .74rem;
+}
+.card .up{
+    height: .95rem;
+    padding-top: .22rem;
+}
+.card .imgbox{
+    width: .93rem;
+    height: .93rem;
+    margin-left: .29rem;
+    float: left;
+    box-shadow: 0 .01rem .27rem 0
+    rgba(204, 204, 204, 0.75);
+    border: solid .04rem #ffffff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.card .content{
+    width: 4.9rem;
+    height: .73rem;
+    margin-top: .15rem;
+    float: right;
+}
+.card .content .name{
+    height: .29rem;
+    width: 100%;
+    margin-bottom: .22rem;
+}
+.card .content .name>h1{
+    font-size: .30rem;
+    color: #000000;
+    opacity: 0.7;
+    letter-spacing: .012rem;
+    display: block;
+    line-height: .29rem;
+    float: left;
+}
+.card .content .name>a{
+    float: right;
+    letter-spacing: 0.008rem;
+    color: #3bacfe;
+    font-size: .20rem;
+    line-height: .29rem;
+    display: block;
+    font-weight: 600;
+}
+.card .content .name>a.d1{
+    opacity: 0.3;
+    margin-right: .23rem;
+}
+.card .content .name>a.d2{
+    opacity: 0.5;
+}
+.card .content .pay{
+    height: .21rem;
+    margin-top: .17rem;
+}
+.card .content .pay p{
+    height: .21rem;
+    font-size: .22rem;
+    line-height: .21rem;
+    font-weight: bold;
+    float: left;
+}
+.card .content .pay p.payw{
+    margin-left: .17rem;
+    color: #b7b7b7;
+    position: relative;
+}
+.card .content .pay p.payw:before{
+    position: absolute;
+    content: '';
+    top:.096rem;
+    left: -.13rem;
+    height: .05rem;
+    width: .05rem;
+    background:#29c99a ;
+}
+.card .content .pay p.num1{
+    margin-left: .19rem;
+    color:#59bffe;
+}
+.card .content .pay p.num2{
+    color: #e2e2e2;
+}
+.card .down{
+    margin-top: .19rem;
+    height:.22rem ;
+    margin-left: .23rem;
+}
+.card .down .vipbox{
+    height: .22rem;
+    width: 100%;
+}
+.card .down .vipbox .iconfont{
+    float: left;
+    line-height: .27rem;
+}
+.card .down .vipbox .g{
+    color: #ffe535;
+}
+.card .down .vipbox .b{
+    color: #d7d8d6;
+}
+.card .down p.vip{
+    display: block;
+    color: #000000;
+    opacity: 0.4;
+    font-size: .22rem;
+    height: .22rem;
+    font-weight: bold;
+    margin-left: .1rem;
+    float: left;
+}
+.card .down .bar{
+    margin:  .14rem 0.18rem;
+    height: .04rem;
+    width: 2.8rem;
+    background: #ddf3fe;
+    float: left;
+    position: relative;
+}
+.card .down .bar:before{
+    position: absolute;
+    content: '';
+    top:0;
+    left: 0;
+    height: .04rem;
+    width: 2rem;
+    background:linear-gradient(#36acfe,#34e0c6) ;
+}
+.power{
+    height: .32rem;
+    padding-left: .53rem;
+    width: 6.97rem;
+    position: relative;
+}
+.power:before{
+    position: absolute;
+    content: '';
+    top: .17rem;
+    left: .3rem;
+    width: .1rem;
+    height: .05rem;
+    background: #36acfe;
+    box-shadow: 0 .02rem .05rem 0
+    rgba(68, 181, 255, 0.43);
+    border-radius: .3rem;
+}
+.power p{
+    float: left;
+    font-size: .32rem;
+    line-height: .40rem;
+    height: .32rem;
+    letter-spacing: .019rem;
+    font-weight: bold;
+}
+.power >.blue{
+    color: #44b5ff;
+}
+.power >.black{
+    color: #4f5b64;
+}
+ul.po{
+    margin-left: .11rem;
+    overflow: hidden;
+}
+ul.po li{
+    margin-top: .51rem;
+    width: 1.97rem;
+    float: left;
+}
+li>.logo{
+    width: 1.13rem;
+    height: 1.13rem;
+    margin: 0 .42rem .29rem;
+    border-radius: 50%;
+}
+li>.logo .iconfont{
+    font-size: .59rem;
+    line-height: 1.13rem;
+    text-align: center;
+    height: 1.13rem;
+    color: white;
+}
+li.vip>.blue{
+    background-image: linear-gradient(180deg,
+    #30a3fe 0%,
+    #6fd5fe 100%),
+    linear-gradient(
+            #000000,
+            #000000);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0 .10rem .29rem 0
+    rgba(41, 167, 255, 0.36);
+}
+li.vip>.green{
+    background-image: linear-gradient(180deg,
+    #2fd4bb 0%,
+    #2dde57 100%),
+    linear-gradient(
+            #000000,
+            #000000);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0 .10rem .29rem 0
+    rgba(72, 213, 112, 0.52);
+}
+li.vip>.yellow{
+    background-image: linear-gradient(180deg,
+    #ffb73a 0%,
+    #ffe533 100%),
+    linear-gradient(
+            #000000,
+            #000000);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0 .10rem .29rem 0
+    rgba(255, 205, 54, 0.52);
+}
+li.vip>p{
+    text-align: center;
+    width: 100%;
+    font-size: .24rem;
+    height: .24rem;
+    line-height: .24rem;
+    color: #8e9397;
+    font-weight: bold;
+}
+div.gap{
+    height: 1.10rem;
+    width: 100%;
+}
+.power>a{
+    float: right;
+    letter-spacing: 0.008rem;
+    color: #000000;
+    font-size: .28rem;
+    line-height: .32rem;
+    display: block;
+    font-weight: 600;
+    opacity: 0.4;
+}
+.power>a.d1{
+    opacity: 0.3;
+    margin-right: .23rem;
+}
+.power>a.d2{
+    opacity: 0.6;
+}
+.power>a.d3{
+    opacity: 0.5;
+}
+.top{
+    height: 1.26rem;
+    width: 100%;
+}
+.border{
+    margin: 0 .25rem;
+    width: 7rem;
+    height: .22rem;
+    border-bottom: #f1f4f5 .02rem solid;
+}

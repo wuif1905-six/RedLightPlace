@@ -1,0 +1,160 @@
+@import "base.css";
+.card{
+    width: 6.42rem;
+    height: 1.85rem;
+    background: #ffffff;
+    box-shadow: 0 .01rem .25rem 0
+    rgba(227, 227, 227, 0.75);
+    margin: 1.64rem .54rem 0;
+}
+.card .imgbox{
+    width: 1.17rem;
+    height: 1.17rem;
+    margin: .34rem 0 .34rem .29rem;
+    float: left;
+    box-shadow: 0 .01rem .27rem 0
+    rgba(204, 204, 204, 0.75);
+    border: solid .04rem #ffffff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.card .content{
+    width: 4.69rem;
+    height: .73rem;
+    margin-top: .62rem;
+    float: right;
+}
+.card .content .name{
+    height: .29rem;
+    width: 100%;
+    margin-bottom: .22rem;
+}
+.card .content .name>h1{
+    font-size: .30rem;
+    color: #000000;
+    opacity: 0.7;
+    letter-spacing: .012rem;
+    display: block;
+    line-height: .29rem;
+    float: left;
+}
+.card .content .name>a{
+    float: right;
+    letter-spacing: 0.008rem;
+    color: #3bacfe;
+    font-size: .20rem;
+    line-height: .29rem;
+    display: block;
+    font-weight: 600;
+}
+.card .content .name>a.d1{
+    opacity: 0.3;
+    margin-right: .23rem;
+}
+.card .content .name>a.d2{
+    opacity: 0.5;
+}
+.card .content .vipbox{
+    height: .22rem;
+    width: 100%;
+}
+.card .content .vipbox .iconfont{
+    float: left;
+    color: #ffe535;
+    line-height: .27rem;
+}
+.card .content p.vip{
+    display: block;
+    color: #000000;
+    opacity: 0.4;
+    font-size: .22rem;
+    height: .22rem;
+    font-weight: bold;
+    padding-left: .39rem;
+}
+ul.te{
+    width: 6.1rem;
+    height: 1.03rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: .65rem;
+    margin: 0 .7rem;
+}
+ul.te>li{
+    height: .75rem;
+    width: .82rem;
+}
+ul.te>li>.num{
+    height: .46rem;
+    font-size: .46rem;
+    line-height: .46rem;
+    text-align: center;
+    font-weight: bolder;
+    display: block;
+}
+ul.te>li>.c1{
+    background-image: -webkit-gradient(linear, left 0, right 0, from(#30a3fe), to(#6fd5fe));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: rgba(41,167,255,0.36) 0 0.04rem 0.08rem;
+}
+ul.te>li>.c2{
+    background-image: -webkit-gradient(linear, left 0, right 0, from(#2dde59), to(#2fd4ba));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: rgba(46,213,147,0.36) 0 0.04rem 0.08rem;
+}
+ul.te>li>.c3{
+    background-image: -webkit-gradient(linear, left 0, right 0, from(#ffb83a), to(#ffe333));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: rgba(255,213,53,0.36) 0 0.04rem 0.08rem;
+}
+ul.te>li>p.statement{
+    margin-top: .19rem;
+    font-size: .24rem;
+    color: #8e9397;
+    height: .23rem;
+    line-height: .23rem;
+    text-align: center;
+}
+ul.power{
+    margin:0 .53rem;
+}
+ul.power>li{
+    padding: .32rem .23rem;
+    width: 5.98rem;
+    border-bottom: #f6f9fa .02rem solid;
+    position: relative;
+}
+ul.power>li>.con{
+    font-size: .28rem;
+    height: .27rem;
+    line-height: .27rem;
+    color: #000;
+    font-weight: bold;
+    opacity: 0.7;
+    position: relative;
+    display: block;
+}
+ul.power>li>.con:before{
+    content: "";
+    position: absolute;
+    width: .1rem;
+    height: .05rem;
+    background: #44b5ff;
+    border-radius: .025rem;
+    box-shadow: 0 .02rem .05rem 0
+    rgba(68, 181, 255, 0.43);
+    top: .09rem;
+    left: -.24rem;
+}
+ul.power>li>.tel{
+    font-size: .36rem;
+    font-weight: bold;
+    line-height: 1;
+    color: #fe624e;
+    position: absolute;
+    top: .295rem;
+    right: 0;
+}
