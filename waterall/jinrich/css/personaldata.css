@@ -1,0 +1,110 @@
+@import "base.css";
+ul.data{
+    margin:1.23rem .25rem 1.18rem;
+}
+ul.data>li{
+    padding: .32rem .23rem;
+    width: 5.98rem;
+    height: .27rem;
+    border-bottom: #f6f9fa .02rem solid;
+    position: relative;
+}
+ul.data>li>.con:after{
+    position: absolute;
+    content: '>';
+    color: #d4edff;
+    font-size: .24rem;
+    font-weight: bold;
+    right: -.6rem;
+    top: 0;
+}
+ul.data>li>.con{
+    font-size: .28rem;
+    height: .27rem;
+    line-height: .27rem;
+    color: #000;
+    font-weight: bold;
+    opacity: 0.5;
+    position: relative;
+    display: block;
+}
+ul.data>li>.con:before{
+    content: "";
+    position: absolute;
+    width: .1rem;
+    height: .05rem;
+    background: #44b5ff;
+    border-radius: .025rem;
+    box-shadow: 0 .02rem .05rem 0
+    rgba(68, 181, 255, 0.43);
+    top: .09rem;
+    left: -.24rem;
+}
+ul.data>li>a{
+    display: block;
+    position: absolute;
+    width: .57rem;
+    height: .57rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #36a8fe,
+            #36a8fe);
+    box-shadow: 0 .04rem .20rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius: .10rem;
+    top: .17rem;
+    right: .12rem;
+    color: #ffffff;
+    line-height: .57rem;
+    font-size: .30rem;
+    text-align: center;
+}
+ul.data>li>.name{
+    position: absolute;
+    color: #000000;
+    opacity: 0.7;
+    font-size: .28rem;
+    display: block;
+    top: .25rem;
+    right: 0;
+    font-weight: bold;
+}
+ul.data>li>.sex{
+    position: absolute;
+    color: #30a3fe;
+    opacity: 0.7;
+    font-size: .28rem;
+    display: block;
+    top: .25rem;
+    right: .15rem;
+    font-weight: bold;
+}
+ul.data>li>.tel{
+    font-size: .30rem;
+    font-weight: bold;
+    line-height: 1;
+    color: #36a8fe;
+    position: absolute;
+    top: .295rem;
+    right: 0;
+}
+.save{
+    display: block;
+    width: .8rem;
+    margin: 0 auto;
+    padding: .2rem 1.87rem;
+    text-align: center;
+    color: white;
+    font-size: .2rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    box-shadow: 0 .04rem .20rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius: .3rem;
+}
