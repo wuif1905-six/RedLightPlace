@@ -1,0 +1,133 @@
+.Neck{
+    width: 4.5rem;
+    height: 0.5rem;
+    margin: 0.26rem auto 0.24rem;
+    /*background: #3bacfe;*/
+    display: flex;
+    justify-content: space-between;
+}
+.Neck li{
+    width: 1.35rem;
+    height: 0.5rem;
+    background: rgba(59,172,254,0.1);
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.Neck li>span{
+    font-size: 0.2rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    color: #3bacfe;
+}
+.Neck .hot{
+    background: rgba(59,172,254,1);
+}
+.Neck .hot span{
+    color: #ffffff;
+}
+.Chest{
+    margin-top: 0.17rem;
+    width: 100%;
+    height: 3rem;
+    background: #12b7de;
+    margin-bottom: 0.4rem;
+}
+.Belly{
+    width: 7.0rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    padding: 0.29rem 0;
+    font-size: 0.32rem;
+    color: #4f5b64;
+    border-bottom: 0.01rem solid rgba(216,223,227,0.3);
+}
+.Belly>span{
+    padding-left: 0.2rem;
+    color: #35bd82;
+    position: relative;
+}
+.Belly>span:before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #35bd82;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.1rem;
+}
+.Waist {
+    width: 7.0rem;
+    /*height: 8.44rem;*/
+    margin-bottom: 0.72rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Waist li{
+    width: 3.25rem;
+    height: 3.86rem;
+    /*background: #999999;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.Waist li .Waist-img{
+    margin: 0.15rem 1rem 0.44rem 0.72rem;
+    width: 1.53rem;
+    height: 1.61rem;
+}
+.Waist li p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Waist li>p>span{
+    font-size: 0.3rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.Waist li>p>i{
+    font-size: 0.28rem;
+    color: #fbb548;
+}
+.Waist li>b{
+    color: rgba(0,0,0,0.6);
+    font-size: 0.22rem;
+}
+.Waist li>strong{
+    width: 100%;
+    margin-bottom: 0.19rem;
+    border-top: solid 0.04rem rgba(0,0,0,0.04);
+    display: flex;
+    justify-content: space-between;
+}
+.Waist li>strong>span{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    padding-left: 0.2rem;
+    position: relative;
+}
+.Waist li>strong>span:before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.15rem;
+    left: 0.1rem;
+}
+.Waist li>strong>span>i{
+    font-size: 0.26rem;
+    color: #3bacfe;
+}
+.Waist li>em{
+    width: 100%
+}
+/*.Waist li span{*/
+/*    font-size: 0.28rem;*/
+/*    color: #fbb548;*/
+/*}*/

@@ -1,0 +1,340 @@
+@import "teshufuhao.css";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.2rem;
+}
+i{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    font-size: 100px; }
+
+body {
+    font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.4rem;
+    color: #4ebbfe;
+    margin-bottom: 0.2rem;
+    margin-top: 0.3rem;
+}
+header a{
+    width: 0.3rem;
+    height: 0.4rem;
+}
+header span{
+    font-size: 0.38rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.02rem;
+    color: #4ebbfe;
+}
+article{
+    box-sizing: border-box;
+    padding: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+header .iconfont{
+    margin-left: 0.2rem;
+    font-size: 0.4rem;
+    color: #36a8fe;
+    box-sizing: border-box;
+}
+.search{
+    padding: 0.1rem 0.22rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    margin-bottom: 0.25rem;
+}
+.search > a{
+    float: right;
+    width:100%;
+    height: 0.6rem;
+    border: solid 0rem rgba(55, 169, 254, 0.17);
+    border-radius: 0.3rem;
+    background-color: #ebf7ff;
+    opacity: 0.58;
+}
+.searchbutton{
+    position: relative;
+    box-shadow: 0rem 0rem 0.1rem 0rem  rgba(255, 211, 161, 0.45);
+    width: 0.79rem;
+    height: 0.44rem;
+    background-color: #a4e0bd;
+    border-radius: 0.21rem;
+    opacity: 0.71;
+    float: right;
+    margin-right: 0.2rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+.searchbutton img{
+    position: absolute;
+    left: 0.15rem;
+    width: 0.5rem;
+    height: 0.4rem;
+    box-shadow: 0rem 0.03rem 0.1rem 0rem
+    rgba(127, 211, 161, 0.45);
+    opacity: 0.71;
+}
+
+.xuanxiang{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.57rem;
+}
+.xuanxiang span{
+    box-sizing: content-box;
+    padding: 0.17rem 0.46rem;
+    background: rgba(59,172,254,0.43);
+    box-shadow: 0rem 0.05rem 0.12rem 0rem
+    rgba(59, 172, 254, 0.43);
+    border-radius: 0.26rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+    display: inline-block;
+    height: 0.26rem;
+    margin-right: 0.25rem;
+}
+.xuanxiang .hot{
+    color: #ebf7ff;
+    background: #3bacfe;
+}
+
+.remengoods{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 0.3rem;
+}
+.remengoods h1 span1{
+    color: #34da87;
+    font-size: 0.32rem;
+}
+.remengoods h1{
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 0.57rem;
+    font-size: 0.32rem;
+}
+.remengoods h1:first-child::before {
+    content: "";
+    top: 0.19rem;
+    left: -0.09rem;
+    position: absolute;
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #34da87;
+    box-shadow: 0rem 0.02rem 0.05rem 0rem rgba(68, 181, 255, 0.43);
+}
+.remengoods a span3{
+    right: 0;
+    top: 0;
+    position: absolute;
+    color: #3bacfe;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+}
+.remengoods a span5{
+    opacity: 0.5;
+}
+.remengoods ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.remengoods li{
+    position: relative;
+    width: 3.25rem;
+    height: 3.86rem;
+    margin-bottom: 0.72rem;
+}
+.remengoods .scorre{
+    box-sizing: border-box;
+    padding: 0.06rem 0.11rem 0.08rem 0.13rem;
+    top: 0;
+    right: 0;
+    width: 0.54rem;
+    height: 0.3rem;
+    background: #4ebbfe;
+    color: white;
+    border-radius: 0.2rem;
+    position: absolute;
+    line-height: 0.18rem;
+}
+.remengoods .goodsimg{
+    margin-top: 0.15rem;
+    margin-left: 0.72rem;
+    width: 1.53rem;
+    height: 1.61rem;
+    margin-bottom: 0.47rem;
+}
+.remengoods .goodsimg img{
+    width: 100%;
+    height: 100%;
+}
+.remengoods li h1{
+    box-sizing: border-box;
+    position: relative;
+    font-size: 0.3rem;
+    font-weight: bolder;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 0.1rem;
+}
+.remengoods li h1 span{
+    right: 0;
+    font-size: 0.28rem;
+    font-weight: bolder;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #fbb548;
+    position: absolute;
+}
+.remengoods li > span{
+    display: block;
+    color: #000000;
+    opacity: 0.5;
+    margin-bottom: 0.17rem;
+}
+
+.fengexian{
+    width: 100%;
+    height: 0.02rem;
+    border: solid 0.04rem #000000;
+    background: #000000;
+    opacity: 0.04;
+    margin-bottom: 0.18rem;
+}
+
+.remengoods .yeji{
+    position: relative;
+    margin-bottom: 0.2rem;
+}
+.remengoods .yeji span{
+    height: 0.21rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+    margin-left: 0.12rem;
+    margin-right: 0.09rem;
+}
+.remengoods .yeji span::before{
+    top: 0.14rem;
+    left: -0.1rem;
+    content: "";
+    position: absolute;
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0rem 0.02rem 0.05rem 0rem
+    rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+}
+.remengoods .yeji b{
+    opacity: 1;
+    height: 0.18rem;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.22rem;
+    font-weight: bolder;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #36a8fe;
+    margin-right: 0.428rem;
+}
+
+.remengoods .pingjia span{
+    box-sizing: border-box;
+    padding: 0.08rem 0.21rem 0.08rem 0.08rem;
+    height: 0.35rem;
+    background:rgba(59,171,255,0.1);
+    border-radius: 0.18rem;
+    color: #36a8fe;
+    margin-right: 0.09rem;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+footer li{
+    position: relative;
+    height: 0.98rem;
+    width: 100%;
+    background: #f1f9ff;
+}
+footer a{
+    width: 50%;
+    height: 50%;
+    text-decoration: none;
+    display: block;
+    opacity: 0.5;
+}
+.hot{
+    opacity: 1;
+}
+footer img{
+    position: absolute;
+    box-sizing: border-box;
+    top: 0.1rem;
+    left: 0.65rem;
+}
+footer p{
+    position: absolute;
+    bottom: 0.1rem;
+    left: 0.06rem;
+    display: block;
+    color: #59c3fe;
+    font-size: 0.2rem;
+    margin-left: 0.6rem;
+}

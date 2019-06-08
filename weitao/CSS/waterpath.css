@@ -1,0 +1,143 @@
+.Neck{
+    font-size: 0.24rem;
+    height: 0.7rem;
+    padding: 0 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*margin-bottom: 0.68rem;*/
+    box-shadow: 0rem 0.35rem 0.4rem 0rem rgba(41,167,255,0.13);
+}
+.Neck li>a>span{
+    line-height: 0.7rem;
+    margin-right: 0.19rem;
+    color: #4ebbfe;
+}
+.Neck li.hot>a>span{
+    color: #36d681;
+}
+.Chest{
+    padding: 0 0.22rem 0 0.35rem;
+    position: absolute;
+    bottom: 0;
+    top: 2rem;
+    left: 0;
+    right: 0;
+    /*background: #9fb4ff;*/
+    overflow: hidden;
+}
+.Chest>li{
+    height: 1.74rem;
+    background: #fbfeff;
+    margin-top: 0.68rem;
+    overflow: hidden;
+}
+.Chest>li>a>i{
+    position: absolute;
+    width: 1.74rem;
+    height: 1.74rem;
+    border-radius: 0.01rem;
+    background: #ffffff;
+    display: block;
+    float: left;
+    margin-right: 0.22rem;
+}
+.Chest>li>a>i>.Chest-img{
+    width: 1.19rem;
+    height: 1.19rem;
+    margin-left: 0.28rem;
+    margin-top: 0.28rem;
+    border-radius: 50%;
+}
+.Chest>li>a>.Chest-text{
+    height: 1.74rem;
+    /*background: #2affe1;*/
+    margin-left: 1.99rem;
+}
+.Chest-text{
+    position: relative;
+}
+.Chest-text>h3{
+    width: 1.22rem;
+    height: 0.28rem;
+    font-size: 0.3rem;
+    font-weight: normal;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 0.21rem;
+}
+.Chest-text>ul{
+    font-size: 0.22rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    margin-bottom: 0.15rem;
+}
+.Chest-text>ul>span{
+    line-height: 0.22rem;
+    margin-left: 0.3rem;
+    margin-right: 0.36rem;
+    position: relative;
+}
+.Chest-text>ul>span:before{
+    content: "";
+    background: #44b5ff;
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    position: absolute;
+    left: -0.15rem;
+    top: 0.1rem;
+}
+.Chest-text>ul>span>em{
+    font-style: normal;
+    font-stretch: normal;
+}
+.Chest-text>ul>span>i{
+    color: #368afe;
+    font-stretch: normal;
+    font-style: normal;
+}
+.Chest-text>.Chesttext-comment{
+    font-size: 0.2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+
+}
+.Chest-text>.Chesttext-comment>b{
+    width: 1.21rem;
+    height: 0.35rem;
+    background: #33fffd;
+    border-radius: 0.18rem;
+    text-align: center;
+    line-height: 0.35rem;
+    color: #36a8fe;
+    font-weight: normal;
+    margin-right: 0.15rem;
+}
+.Chest-text>span{
+    font-size: 0.18rem;
+    height: 0.18rem;
+    line-height: 0.18rem;
+    color: #c2c4c5;
+    margin-left: 0.2rem;
+    position: relative;
+}
+.Chest-text>span:before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    position: absolute;
+    left: -0.15rem;
+    top: 0.1rem;
+    background: #16d681;
+}
+.Chest .price{
+    font-size: 0.26rem;
+    color: #fbb548;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

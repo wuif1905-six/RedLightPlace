@@ -1,0 +1,112 @@
+#a{
+    font-size: 0.38rem;
+    height: 1rem;
+    color: #4ebbfe;
+    text-align: center;
+    line-height: 1rem;
+}
+.Neck{
+    padding: 0 0.22rem 0 0.20rem;
+    height: 0.57rem;
+    color: #4ebbfe;
+}
+.Neck>span{
+    width: 1.5rem;
+    height: 100%;
+    line-height: 0.57rem;
+    /*text-align: center;*/
+    float: left;
+}
+.Neck-turndown{
+    width: 0.17rem;
+    height: 0.1rem;
+    margin-left: 0.15rem;
+}
+.Neck .search{
+    width: 5.5rem;
+    height: 100%;
+    background-color: #ebf7ff;
+    border: 0.03rem solid rgba(55, 169,254, 0.17);
+    border-radius: 0.3rem;
+    opacity: 0.58;
+    float: right;
+    position: relative;
+}
+.Neck .search-img{
+    width: 0.37rem;
+    height: 0.37rem;
+    position: absolute;
+    top: 0.1rem;
+    right: 0.3rem;
+}
+.Chest{
+    margin-top: 0.17rem;
+    width: 100%;
+    height: 3rem;
+    background: #12b7de;
+}
+.Belly{
+    padding: 0.34rem 0.5rem;
+    height: 7.23rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.Belly li{
+    width: 1.8rem;
+    height: 2.3rem;
+    /*background: #999999;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Belly li .Belly-img{
+    width: 1.13rem;
+    height: 1.13rem;
+}
+.Belly li p{
+    margin-top: 0.28rem;
+    font-size: 0.24rem;
+    text-align: center;
+}
+
+
+#b{
+    width: 100%;
+    height: 1rem;
+    /*background: #4ebbfe;*/
+    padding: 0.14rem 0.4rem 0.12rem;
+    box-sizing: border-box;
+}
+#b ul{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#b li{
+    /*width: 1.5rem;*/
+    height: 0.74rem;
+    /*background: black;*/
+    opacity: 0.5;
+}
+#b li.hot{
+    opacity: 1;
+}
+#b .footer-img{
+    width: 0.46rem;
+    height: 0.46rem;
+}
+#b .footer-img.hot{
+    opacity: 1;
+}
+#b p{
+    white-space: nowrap;
+    font-size: 0.24rem;
+}
+
+
+

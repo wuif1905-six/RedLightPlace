@@ -1,0 +1,407 @@
+.detail-head{
+    box-shadow: 0 0.03rem 0.43rem rgba(41,167,225,0.13);
+}
+.Neck{
+    width: 3.00rem ;
+    height: 3.62rem;
+    padding: 1.66rem 2.0rem 1.46rem;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 0.01rem solid rgba(216,223,227,0.3);
+    position: relative;
+}
+.Chest h1{
+    font-size: 0.3rem;
+    line-height: 0.29rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.Chest p{
+    font-size: 0.22rem;
+    line-height: 0.36rem;
+    color: #000000;
+    opacity: 0.3;
+}
+.Chest .Chest-title{
+    height: 0.33rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    /*background: #2affe1;*/
+}
+.Chest-title span{
+    font-size: 0.26rem;
+    color: #fbb548;
+    margin-right: 0.22rem;
+}
+.Chest-title .Chesttitle-box{
+    font-size: 0.2rem;
+    height: 0.36rem;
+    text-align: center;
+    background: rgba(65,178,252,0.1);
+    border-radius: 0.18rem;
+    margin-right: 0.29rem;
+    line-height: 0.36rem;
+}
+.Chest-title>p{
+    color: #41bcfc;
+}
+.Chest-title i{
+    color: #36d681;
+}
+.Chest .sales{
+    height: 0.19rem;
+    position: absolute;
+    bottom: 0.2rem;
+    right: 0.2rem;
+}
+.Chest .sales span{
+    font-size: 0.2rem;
+    padding-left: 0.2rem;
+    color: #000000;
+    opacity: 0.3;
+    margin-right: 0.11rem;
+    position: relative;
+}
+.Chest .sales span:before{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #36d681;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.Chest .sales i{
+    font-size: 0.24rem;
+    color: #36a8fe;
+}
+.Belly{
+    /*height: 0.36rem;*/
+    width: 7.0rem;
+    padding: 0.24rem 0 0.24rem 0;
+    border-bottom: 0.01rem solid rgba(216,223,227,0.3);
+}
+.Belly>a{
+    /*width: 100%;*/
+    /*height: 100%;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    box-sizing: border-box;
+}
+.Belly>a>.iconfont{
+    font-size: 0.3rem;
+    font-weight: bolder;
+    color: #ff844e;
+    line-height: 0.36rem;
+    margin-right: 0.2rem;
+}
+.Belly>a>.Belly-saletitle{
+    font-size: 0.24rem;
+    font-weight: bold;
+    color: #ff844e;
+    margin-right: 0.13rem;
+}
+.Belly>a>.Belly-sale{
+    width: 1.84rem;
+    height: 0.39rem;
+    background-image: linear-gradient(#ffca3b 0%,#ff933b 100%);
+    border-radius: 0.2rem;
+    font-size: 0.24rem;
+    line-height: 0.39rem;
+    color: #fbfeff;
+    text-align: center;
+}
+
+.Waist{
+    font-size: 0.22rem;
+    line-height: 0.4rem;
+    color: #3bacfe;
+    width: 7.0rem;
+    height: 0.4rem;
+    border-bottom: 0.01rem solid rgba(216,223,227,0.3);
+    /*background: #9fb4ff;*/
+    padding: 0.38rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.Waist>li{
+    padding-left: 0.2rem;
+    margin-right: 0.75rem;
+    position: relative;
+}
+.Waist>li:before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.05rem;
+    background: #36d681;
+}
+.ass{
+    color: #3bacfe;
+    width: 7.0rem;
+    height: 0.36rem;
+    /*background: #9fb4ff;*/
+    padding: 0.38rem 0 0.14rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.ass .assleft{
+    font-size: 0.32rem;
+    position: relative;
+    padding-left: 0.2rem;
+}
+.ass>.assleft:before{
+    content: "";
+    width:0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #3bacfe;
+    position: absolute;
+    top: 0.18rem;
+    left: 0.05rem;
+}
+.ass>.assleft>span{
+    color: #4f5b64;
+}
+.ass .assright{
+    font-size: 0.22rem;
+}
+.ass .iconfont{
+    font-size: 0.22rem;
+}
+.ass>.assright>span{
+    opacity: 0.5;
+}
+.bigleg{
+    width: 7.0rem;
+    height: 6.0rem;
+    border-bottom: 0.01rem solid rgba(216,223,227,0.3);
+}
+.bigleg li{
+    padding: 0.32rem 0;
+    min-height: 1.93rem;
+    display: flex;
+    justify-content: left;
+    border-bottom: 0.01rem solid rgba(216,223,227,0.3);
+}
+.bigleg>li>i{
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 0.21rem;
+}
+.bigleg>li>.bigleg-box{
+    padding: 0.27rem 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.bigleg-box .bigleg-first{
+    display: flex;
+    justify-content: space-between;
+}
+.bigleg-box span{
+    width: 100%;
+    font-size: 0.26rem;
+    height: 0.27rem;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 0.2rem;
+}
+.bigleg-box span>b{
+    width: 3rem;
+    font-size: 0.2rem;
+    color: #cfcfcf;
+    display: flex;
+    justify-content: left;
+    position: relative;
+}
+.bigleg-box span>b>strone{
+    width: 1.25rem;
+    margin-left: 0.44rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bigleg-box span>b>strone>i{
+    font-size: 0;
+    height: 0.2rem;
+    width: 0.2rem;
+
+}
+.star1{
+    position: absolute;
+    top: 0.02rem;
+    left: 0.67rem;
+    z-index: 50;
+}
+.star2{
+    position: absolute;
+    top: 0.02rem;
+    left: 0.67rem;
+}
+
+.bigleg-box span>em{
+    font-size: 0.22rem;
+    color: #9ed5ff;
+}
+.bigleg-box span>i{
+    font-size: 0.22rem;
+    margin-right: 0.21rem;
+    color: #000;
+    opacity: 0.3;
+}
+.bigleg-box>i{
+    font-size: 0;
+}
+.bigleg-box>i>img {
+    width: 1.8rem;
+    height: 1.01rem;
+}
+.knee{
+    width: 7.0rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    padding: 0.29rem 0;
+    font-size: 0.32rem;
+    color: #4f5b64;
+    border-bottom: 0.01rem solid rgba(216,223,227,0.3);
+}
+.knee>span{
+    padding-left: 0.2rem;
+    color: #35bd82;
+    position: relative;
+}
+.knee>span:before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #35bd82;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.1rem;
+}
+.knee2{
+    width: 7.0rem;
+    height: 7.0rem;
+    background: #3bacfe;
+    border-bottom: 0.01rem solid rgba(216,223,227,0.3);
+}
+.smalleg {
+    width: 7.0rem;
+    height: 6rem;
+    margin-bottom: 0.4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.smalleg li{
+    width: 2rem;
+    height: 3rem;
+    /*background: #999999;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.smalleg li .smalleg-img{
+    width: 1.88rem;
+    height: 1.88rem;
+}
+.smalleg li p{
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.6;
+    text-align: center;
+}
+.smalleg li span{
+    font-size: 0.28rem;
+    color: #fbb548;
+}
+.foot{
+    width: 7rem;
+    /*background: #3bacfe;*/
+    height: 0.75rem;
+    padding: 0.16rem 0.25rem;
+    background: #fff;
+    /*box-sizing: border-box;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.foot .foot-imgbox{
+    width: 1.1rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    /*color: #cfe9ff;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot .dian{
+    color: #64b7ff;
+}
+.foot .lianxi{
+    color: #37e06f;
+}
+.foot-imgbox span{
+    font-size: 0.25rem;
+
+}
+.foot-imgbox .foot-img1{
+    font-size: 0.4rem;
+}
+.foot-imgbox .foot-img2{
+    font-size: 0.4rem;
+}
+.foot>i{
+    width: 1.96rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+}
+.foot .foot-insert{
+    text-align: center;
+    width: 1.96rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    box-shadow: 0rem 0.04rem 0.2rem 0rem
+    rgba(55, 223, 116, 0.75);
+}
+.foot .foot-buy{
+    text-align: center;
+    width: 1.96rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background-color: #3bacfe;
+}
+.foot li>span{
+    font-size: 0.24rem;
+    line-height: 0.6rem;
+    color: #ffffff;
+}
+
+
+

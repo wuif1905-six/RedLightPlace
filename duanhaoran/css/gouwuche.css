@@ -1,0 +1,322 @@
+@import "teshufuhao.css";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.2rem;
+}
+i{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    font-size: 100px; }
+
+body {
+    font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.4rem;
+    color: #4ebbfe;
+    margin-bottom: 1.17rem;
+    margin-top: 0.3rem;
+}
+header a{
+    width: 0.3rem;
+    height: 0.4rem;
+}
+header span{
+    font-size: 0.38rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.02rem;
+    color: #4ebbfe;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+article{
+    box-sizing: border-box;
+    padding: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+header .iconfont{
+    margin-left: 0.2rem;
+    font-size: 0.4rem;
+    color: #36a8fe;
+    box-sizing: border-box;
+}
+
+.kong{
+    position: relative;
+    display: none;
+}
+.tishiimg{
+    position: absolute;
+    top:2rem;
+    left: 2.4rem;
+}
+.kong span2{
+    position: absolute;
+    top:4.5rem;
+    left: 2.9rem;
+    color: #000000;
+    letter-spacing: 0.01rem;
+    font-size: 0.26rem;
+    opacity: 0.4;
+}
+.kong span3{
+    position: absolute;
+    top: 5.5rem;
+    left: 2.8rem;
+    box-sizing: border-box;
+    background: #4cd964;
+    border-radius: 0.3rem;
+    color: white;
+    padding: 0.2rem 0.65rem 0.21rem 0.7rem;
+}
+
+article ul{
+    display: flex;
+    position: relative;
+    justify-content: left;
+    flex-direction: column;
+    margin-bottom: 0.15rem;
+}
+article ul li{
+    position: relative;
+    height: 3.07rem;
+    border-bottom: rgba(0,0,0,0.05) solid 0.02rem;
+
+}
+.name{
+    display: block;
+    height: 0.24rem;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 0.24rem;
+}
+.name h1 span1{
+    color: #41b2fc;
+    font-size: 0.32rem;
+}
+.name h1{
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 0.31rem;
+    font-size: 0.32rem;
+}
+.name h1::before {
+    content: "";
+    top: 0.19rem;
+    left: -0.09rem;
+    position: absolute;
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0rem 0.02rem 0.05rem 0rem rgba(68, 181, 255, 0.43);
+}
+.name a span3{
+    left: 0.54rem;
+    top: 0;
+    position: relative;
+    color: #3bacfe;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+}
+.name a span3::before{
+    left: -0.4rem;
+    border-radius: 50%;
+    position: absolute;
+    content: "";
+    width: 0.24rem;
+    height: 0.24rem;
+    background-color: #e7f6ff;
+}
+.goodsinfo{
+    box-sizing: border-box;
+    display: flex;
+    padding: 0.5rem;
+    justify-content: space-between;
+
+}
+.goodsinfo .goodsimg{
+    position: relative;
+    width: 1.74rem;
+    height: 1.74rem;
+    box-shadow: 0rem 0.01rem 0.21rem 0rem
+    rgba(223, 223, 223, 0.43);
+}
+.goodsinfo .goodsimg::before{
+    top: 0.8rem;
+    left: -0.4rem;
+    border-radius: 50%;
+    position: absolute;
+    content: "";
+    width: 0.24rem;
+    height: 0.24rem;
+    background-color: #e7f6ff;
+}
+.goodsinfo > span {
+    font-size: 0.3rem;
+    font-weight: bolder;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.num{
+    display: flex;
+    justify-content: center;
+
+}
+.num > div{
+    min-width: 0.2rem;
+    color: #4ebbfe;
+}
+.num .jian{
+    width: 0.33rem;
+    height: 0.33rem;
+}
+.num .jia{
+    width: 0.4rem;
+    height: 0.4rem;
+}
+article > ul > li > span{
+    color: #8e9397;
+    opacity: 0.8;
+    bottom: 1rem;
+    right: 4rem;
+    position: absolute;
+}
+article  > span{
+    display: block;
+    color: #4ebbfe;
+    left: 0.7rem;
+    bottom: 2rem;
+    position: absolute;
+}
+article > span::before{
+    left: -0.4rem;
+    border-radius: 50%;
+    position: absolute;
+    content: "";
+    width: 0.24rem;
+    height: 0.24rem;
+    background-color: #e7f6ff;
+}
+.hot ::before{
+    left: -0.4rem;
+    border-radius: 50%;
+    position: absolute;
+    content: "";
+    width: 0.24rem;
+    height: 0.24rem;
+    background:rgba(55,223,116,0.75);
+}
+
+footer{
+    left: 0;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-around;
+    background: #f1faff;
+}
+footer .zuo{
+    box-sizing: border-box;
+    padding-left: 0.38rem;
+    padding-top: 0.26rem;
+    width: 3.45rem;
+}
+.yeji{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.yeji span{
+    position: relative;
+    height: 0.21rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #36a8fe;
+    opacity: 0.3;
+    margin-left: 0.12rem;
+}
+.yeji span:first-child::before{
+    top: 0.14rem;
+    left: -0.1rem;
+    content: "";
+    position: absolute;
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0rem 0.02rem 0.05rem 0rem
+    rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+}
+.yeji span > b{
+    color: #36a8fe;
+    margin-right: 0.2rem;
+    opacity: 1;
+}
+.yeji div > b{
+    color: #36a8fe;
+    margin-right: 0.4rem;
+    opacity: 1;
+    font-size: 0.3rem;
+    font-weight: bolder;
+}
+footer .you{
+    box-sizing: border-box;
+    padding: 0.25rem 0.04rem;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+footer .you span{
+    padding: 0.18rem 1.66rem;
+    box-sizing: border-box;
+    background: #4cd964;
+    color: #ebf7ff;
+    border-radius: 0.3rem;
+    margin-right: 0.24rem;
+}

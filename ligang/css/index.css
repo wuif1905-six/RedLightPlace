@@ -1,0 +1,162 @@
+@import "base.css";
+
+/*header*/
+header{
+    height: 0.88rem;
+    line-height: 0.88rem;
+    text-align: center;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    font-weight: bold;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+}
+
+/*search*/
+.search{
+    padding: 0.17rem 0.22rem;
+    height: 0.60rem;
+}
+.search > span{
+    float: left;
+    font-size: 0.28rem;
+    color: #4ebbfe;
+    margin-top: 0.15rem;
+}
+.search > a{
+    float: right;
+    width: 5.93rem;
+    height: 0.6rem;
+    border: 0.01rem solid skyblue;
+    border-radius: 0.3rem;
+}
+
+/*banner*/
+.banner{
+    width: 100%;
+    height: 3rem;
+}
+.banner img{
+    width: 100%;
+    height: 3rem;
+}
+
+/*category*/
+.category{
+    padding: 0.22rem;
+    height: 6.9rem;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.category > li{
+    width: 2.35rem;
+    height: 1.94rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.category > li > a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.category > li > a > div{
+    width: 1.13rem;
+    height: 1.13rem;
+}
+.category > li > a > div img{
+    width: 1.13rem;
+    height: 1.13rem;
+}
+.category > li > a  p{
+    margin-top: 0.1rem;
+    color: #12b7de;
+}
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 1.15rem;
+    background: #f1f9ff;
+    padding: 0.15rem 0.22rem 0 0.22rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+}
+footer ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer ul > li{
+    width: 1.3rem;
+    height: 0.9rem;
+    margin-right: 0.1rem;
+}
+footer ul > li > a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+    color: #4ebbfe;
+}
+footer ul > li > a.hot{
+    opacity: 1;
+}
+footer ul > li > a > div{
+    width: 0.6rem;
+    height: 0.6rem;
+}
+footer ul > li > a > div > img{
+    width: 0.6rem;
+    height: 0.6rem;
+}
+footer ul > li > a  p{
+    margin-top: 0.1rem;
+    text-align: center;
+}
+
+/*footer*/
+/*footer{*/
+/*    width: 100%;*/
+/*    height: 0.98rem;*/
+/*    background: #f1f9ff;*/
+/*    padding: 0 0.22rem;*/
+/*    box-sizing: border-box;*/
+/*    -webkit-box-sizing: border-box;*/
+/*    position: fixed;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    display: flex;*/
+/*}*/
+/*footer > a{*/
+/*    width: 0.7rem;*/
+/*    height: 100%;*/
+/*    font-size: 0.24rem;*/
+/*    color: #4ebbfe;*/
+/*    text-align: center;*/
+/*    padding-top: 0.1rem;*/
+/*    box-sizing: border-box;*/
+/*    opacity: 0.6;*/
+/*}*/
+/*footer > a.hot{*/
+/*    opacity: 1;*/
+/*}*/
+/*footer > a > img{*/
+/*    width: 0.5rem;*/
+/*    height: 0.5rem;*/
+/*    display: inline-block;*/
+/*}*/

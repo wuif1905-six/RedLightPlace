@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.2rem;
+}
+i{
+    font-style: normal;
+}
+a{
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    color:#41b2fc;
+}
+
+html {
+    font-size: 100px; }
+
+body {
+    font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.4rem;
+    color: #4ebbfe;
+    margin-bottom: 0.24rem;
+    margin-top: 0.3rem;
+}
+header a{
+    width: 0.3rem;
+    /*height: 0.4rem;*/
+}
+header span{
+    font-size: 0.38rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.02rem;
+    color: #4ebbfe;
+}
+header .iconfont{
+    font-size: 0.4rem;
+    color: #36a8fe;
+    box-sizing: border-box;
+}
+.search{
+    box-sizing: border-box;
+    padding: 0.2rem 0.22rem;
+    height: 0.95rem;
+    line-height: 0.6rem;
+    margin-bottom: 0.25rem;
+    width: 100%;
+    box-shadow: 0 0.15rem 0.29rem 0
+    rgba(41, 167, 255, 0.13);
+
+}
+.search > .searchbox{
+    display: inline-block;
+    position: relative;
+    float: left;
+    width:100%;
+    height: 0.6rem;
+    border: solid 0rem rgba(55, 169, 254, 0.17);
+    border-radius: 0.3rem;
+    background-color: #ebf7ff;
+    opacity: 0.58;
+}
+.search > .searchbox >input{
+    margin-left: 0.2rem;
+    width:70%;
+    height: 100%;
+    border: none;
+    border-radius: 0.3rem;
+    background: none;
+}
+.searchbutton{
+    position: absolute;
+    box-shadow: 0rem 0rem 0.1rem 0rem  rgba(255, 211, 161, 0.45);
+    width: 0.79rem;
+    height: 0.44rem;
+    background-color: #a4e0bd;
+    border-radius: 0.21rem;
+    opacity: 0.71;
+    top: 0;
+    margin-right: 0.2rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    z-index: 999;
+    right: 0;
+}
+.searchbutton >a >img{
+    position: absolute;
+    left: 0.15rem;
+    width: 0.5rem;
+    height: 0.4rem;
+    box-shadow: 0rem 0.03rem 0.1rem 0rem
+    rgba(127, 211, 161, 0.45);
+    opacity: 0.71;
+}
+.searchbutton >a{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+.zuijinsousuo{
+    padding: 0.2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 0.3rem;
+}
+.zuijinsousuo h1 span1{
+    color: #41b2fc;
+    font-size: 0.32rem;
+}
+.zuijinsousuo h1{
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 0.33rem;
+    font-size: 0.32rem;
+}
+.zuijinsousuo h1:first-child::before {
+    content: "";
+    top: 0.19rem;
+    left: -0.09rem;
+    position: absolute;
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #41b2fc;
+    box-shadow: 0rem 0.02rem 0.05rem 0rem rgba(68, 181, 255, 0.43);
+}
+.zuijinsousuo ul >span{
+    box-sizing: border-box;
+    color: #36a8fe;
+    padding: 0.12rem 0.23rem;
+    width: 0.97rem;
+    height: 0.48rem;
+    background-color: rgba(59,171,255,0.1);
+    border-radius: 0.24rem;
+    margin-right: 0.19rem;
+    margin-bottom: 0.81rem;
+}
+
+.dajia{
+    padding: 0.2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 0.3rem;
+}
+.dajia h1 span1{
+    color: #41b2fc;
+    font-size: 0.32rem;
+}
+.dajia h1{
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 0.33rem;
+    font-size: 0.32rem;
+}
+.dajia h1:first-child::before {
+    content: "";
+    top: 0.19rem;
+    left: -0.09rem;
+    position: absolute;
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #41b2fc;
+    box-shadow: 0rem 0.02rem 0.05rem 0rem rgba(68, 181, 255, 0.43);
+}
+.dajia ul{
+    display: flex;
+    justify-content: left;
+    flex-direction: column ;
+}
+.dajia ul >li{
+    margin-bottom: 0.47rem;
+}
+.dajia ul >li >span{
+    box-sizing: border-box;
+    color: #36a8fe;
+    padding: 0.12rem 0.23rem;
+    width: 0.97rem;
+    height: 0.48rem;
+    background-color: rgba(59,171,255,0.1);
+    border-radius: 0.24rem;
+    margin-right: 0.19rem;
+    margin-bottom: 0.81rem;
+}
