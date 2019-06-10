@@ -1,0 +1,164 @@
+@import "teshufuhao.css";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.2rem;
+}
+i{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+html {
+    font-size: 100px; }
+body {
+    font-size: 16px; }
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.4rem;
+    color: #4ebbfe;
+    margin-bottom: 2.29rem;
+    margin-top: 0.3rem;
+    box-shadow: 0 0.15rem 0.29rem 0 rgba(41, 167, 255, 0.13);
+}
+header a{
+    width: 0.3rem;
+    height: 0.4rem;
+}
+header span{
+    font-size: 0.38rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.02rem;
+    margin-bottom: 0.31rem;
+    color: #4ebbfe;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+article{
+    box-sizing: border-box;
+    padding: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+header .iconfont{
+    margin-left: 0.2rem;
+    font-size: 0.4rem;
+    color: #36a8fe;
+    box-sizing: border-box;
+}
+span1{
+    display: block;
+    margin-left: 40%;
+    height: 0.31rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.32rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 0.29rem;
+}
+.box{
+    border-top: 1px solid rgba(0,0,0,0.1);
+    width: 5.18rem;
+    margin-left: 15%;
+}
+.box .iconfont{
+    width: 0.88rem;
+    height: 0.88rem;
+    font-size: 0.88rem;
+    color: #4cd964;
+    margin-left: 40%;
+    margin-top: 0.28rem;
+    margin-bottom: 0.4rem;
+}
+span2{
+    display: block;
+    margin-bottom: 0.44rem;
+    margin-left: 27%;
+    color: #000000;
+    opacity: 0.4;
+}
+span3{
+    position: relative;
+    display: block;
+    margin-bottom: 0.44rem;
+    margin-left: 24%;
+    color: #000000;
+    opacity: 0.3;
+}
+span3::before{
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #36d681;
+    box-shadow: 0rem 0.02rem 0.05rem 0rem
+    rgba(54, 214, 129, 0.43);
+    border-radius: 0.03rem;
+    position: absolute;
+    left: -0.1rem;
+    top: 0.14rem;
+}
+span4{
+    position: relative;
+    display: block;
+    margin-bottom: 0.44rem;
+    margin-left: 44%;
+    color: #000000;
+    opacity: 0.3;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button span{
+    box-sizing: border-box;
+    margin-right: 0.3rem;
+    padding: 0.17rem 0.46rem;
+    font-size: 0.2rem;
+    font-weight: normal;
+}
+.button span:first-child{
+    opacity: 0.72;
+    background:  rgba(59,172,254,0.1);
+    border-radius: 0.26rem;
+}
+.button span:first-child > a{
+    color: #3bacfe;
+    opacity: 0.72;
+}
+.button span:last-child{
+    color: #ffffff;
+    background: rgba(59,172,254,0.43);
+    border-radius: 0.26rem;
+}
+.button span:last-child > a{
+    color: #ffffff;
+}
